@@ -1,0 +1,185 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+
+video {
+  width: 100%;
+  max-width: 100%;
+}
+
+.div_video {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}
+
+/*separacion1*/
+
+.separacion_1{  
+  height: 12% ;
+  min-width: 100%;
+  margin-top: 800px;
+  padding-top: 25px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color:rgb(173, 171, 21) ;
+}
+
+
+.separacion_1 h1{
+  margin-left: 45%;
+  top:250%;
+  letter-spacing: 25px;
+}
+
+
+.separacion_2{
+
+  height: 170px ;
+  min-width: 100%;
+  margin-top: 0px;
+  background-color:rgb(173, 171, 21) ;
+  padding-top: 15px;
+  padding-right: -20%;
+}
+
+.separacion_2 h1{
+  margin-left:40%;
+  letter-spacing:25px;
+
+
+}
+
+#visualizacion{
+  margin-left:35%;
+  letter-spacing:25px;
+}
+
+
+.texto_separacion{
+  height: 55px;
+  width: 90%;
+  border-style: solid;
+  border-width: 0px;
+  margin: auto;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+/*secciones*/
+
+.parallax1 {
+  background: #fff fixed no-repeat 50% 50% ;
+  background-size: cover;
+  height: 20px;
+  min-height: 50%;
+  min-width: 100%;
+  margin-top: 0px;
+}
+
+
+#section1{
+  background-image: url('../img/foto1.jpg');
+}
+
+.caption1{
+  position: absolute;
+  left: 0;
+  top: 125%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+
+.caption1 span{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+#section2{
+  background-image: url('../img/try.jpg');
+}
+
+.caption_2{
+  position: absolute;
+  left: 0;
+  top: 200%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+
+}
+
+.caption_2 span{
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+#section3{
+  background-image: url('../img/last1.jpg');
+}
+
+.caption_3{
+  position: absolute;
+  left: 0;
+  top: 255%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+
+}
+
+.caption_3 span{
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption_3 div{
+  background-color: rgba(0, 0, 0, 0.39);
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  left: 10%;
+  top: 400%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+
+}
+
+
